@@ -1,2 +1,1 @@
-# genetic
-A framework for genetic algorithms
+# Genetic Algorithm Framework
