@@ -243,7 +243,7 @@ void sdlutils_init(int width, int height)
         fprintf(stderr, "SDL_ttf could not initialize! SDL_ttf Error: %s\n", TTF_GetError());
     }
 
-    window = SDL_CreateWindow("Life", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_SHOWN);
+    window = SDL_CreateWindow("A framework for genetic algorithms", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_SHOWN);
     if (window == NULL)
     {
         fprintf(stderr, "SDL Error: %s\n", SDL_GetError());
